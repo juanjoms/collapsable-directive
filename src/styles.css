@@ -1,0 +1,9 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* Add application styles & imports to this file! */
+body {
+  font: Arial, sans-serif;  
+}
