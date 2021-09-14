@@ -1,36 +1,45 @@
 <div class="card">
-	<div class="card-header" tabindex="0" (click)="toggleCollapse(cards[0])">Click here to expand or collapse</div>
-	<div class="card-body" [collapse]=cards[0].isCollapsed>
-		<div class="card-content">
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo iusto quas, vitae repellendus facere sunt sit
-			ea, assumenda praesentium eius ima.      
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo iusto quas, vitae repellendus facere sunt sit
-			ea, lendus facere sunt sit
-			ea, assumenda praesentium eius ima.
+  <div class="card-header" tabindex="0" (click)="toggleCollapse(cards[0])">
+    Click here to expand or collapse
+  </div>
+  <div class="card-body" [collapse]="cards[0].isCollapsed">
+    <div class="card-content">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo iusto quas,
+      vitae repellendus facere sunt sit ea, assumenda praesentium eius ima.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo iusto quas,
+      vitae repellendus facere sunt sit ea, lendus facere sunt sit ea, assumenda
+      praesentium eius ima.
       <div>
         <button (click)="toggleCollapse(cards[1])">Toggle Next</button>
-      </div>      
-		</div>
-	</div>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div class="card">
-	<div class="card-header" tabindex="0" (click)="toggleCollapse(cards[1])">Click here to expand or collapse</div>
-	<div class="card-body" [collapse]=cards[1].isCollapsed>
-		<div class="card-content">
-			Loremem ipsum dolor sit amet consectetur adipisicing elit. Illo iusto quas, vitae repellendus facere sunt sit
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo iusto quas, vieius similique ducimus iste enim. Ullam neque assumenda totam rem minima.
-		</div>
-	</div>
+  <div class="card-header" tabindex="0" (click)="toggleCollapse(cards[1])">
+    Click here to expand or collapse
+  </div>
+  <div class="card-body" [collapse]="cards[1].isCollapsed">
+    <div class="card-content">
+      Loremem ipsum dolor sit amet consectetur adipisicing elit. Illo iusto
+      quas, vitae repellendus facere sunt sit Lorem ipsum dolor sit amet
+      consectetur adipisicing elit. Illo iusto quas, vieius similique ducimus
+      iste enim. Ullam neque assumenda totam rem minima.
+    </div>
+  </div>
 </div>
 
 <div class="card">
-	<div class="card-header" tabindex="0" (click)="toggleCollapse(cards[2])">Click here to expand or collapse</div>
-	<div class="card-body" [collapse]=cards[2].isCollapsed>
-		<div class="card-content">
-			Lorem iptae repellendus facere sunt sit ea, assumenda praesentium eius similem ipsum dolor sit amet consectetur adipisicing elit. Illo iusto quas, vitae repellendus facere sunt sit
-			ea, assumenda praesentium eius ima.      
-			neque assumenda totam rem minima.
-		</div>
-	</div>
+  <div class="card-header" tabindex="0" (click)="toggleCollapse(cards[2])">
+    Click here to expand or collapse
+  </div>
+  <div class="card-body" [collapse]="cards[2].isCollapsed">
+    <div class="card-content">
+      Lorem iptae repellendus facere sunt sit ea, assumenda praesentium eius
+      similem ipsum dolor sit amet consectetur adipisicing elit. Illo iusto
+      quas, vitae repellendus facere sunt sit ea, assumenda praesentium eius
+      ima. neque assumenda totam rem minima.
+    </div>
+  </div>
 </div>
